@@ -4,6 +4,8 @@
 
 [![Roadmap](https://img.shields.io/badge/Roadmap-Link%20-blue?style=for-the-badge)](https://www.wilderssecurity.com/threads/sandboxie-roadmap.445545/page-8#post-3187633) [![Join our Discord Server](https://img.shields.io/badge/Join-Our%20Discord%20Server%20for%20bugs,%20feedback%20and%20more!-blue?style=for-the-badge&logo=discord)](https://discord.gg/S4tFu6Enne)
 
+参考：[从Sandboxie源码分析软件注册机制及逆向思路 - 吾爱破解 - 52pojie.cn](https://www.52pojie.cn/thread-1793118-1-1.html)
+
 |  System requirements  |      Release notes     |     Contribution guidelines   |      Security policy      |      Code of Conduct      |
 |         :---:         |          :---:         |          :---:                |          :---:            |          :---:            |
 | Windows 7 or higher, 32-bit or 64-bit. |  [CHANGELOG.md](./CHANGELOG.md)  |  [CONTRIBUTING.md](./CONTRIBUTING.md)  |   [SECURITY.md](./SECURITY.md)  |  [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)  |
