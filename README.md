@@ -4,7 +4,35 @@
 
 [![Roadmap](https://img.shields.io/badge/Roadmap-Link%20-blue?style=for-the-badge)](https://www.wilderssecurity.com/threads/sandboxie-roadmap.445545/page-8#post-3187633) [![Join our Discord Server](https://img.shields.io/badge/Join-Our%20Discord%20Server%20for%20bugs,%20feedback%20and%20more!-blue?style=for-the-badge&logo=discord)](https://discord.gg/S4tFu6Enne)
 
-参考：[从Sandboxie源码分析软件注册机制及逆向思路 - 吾爱破解 - 52pojie.cn](https://www.52pojie.cn/thread-1793118-1-1.html)
+### 破解
+
+>参考：[从Sandboxie源码分析软件注册机制及逆向思路 - 吾爱破解 - 52pojie.cn](https://www.52pojie.cn/thread-1793118-1-1.html)
+>
+>1. fork该项目
+>
+>2. 在fork的仓库主页，点击Settings-->Actions-->General-->Actions permissions-->Allow all actions and reusable workflows-->save
+>
+>3. 修改文件：`Sandboxie\core\drv\verify.c`
+>
+>4. 修改其中函数 `KphVerifySignature` 为：
+>
+>   ```c
+>   NTSTATUS KphVerifySignature(
+>       _In_ PVOID Hash,
+>       _In_ ULONG HashSize,
+>       _In_ PUCHAR Signature,
+>       _In_ ULONG SignatureSize
+>       )
+>   {   
+>       return STATUS_SUCCESS;
+>   }
+>   ```
+>
+>5. push到fork的仓库，并等待Actions执行完毕
+>
+>6. 获取编译后的结果
+>
+>   <img src="D:\work_save\typora_picture\upload_ac3afe970e79e8dbe7ffaa8189b214bc.png" alt="PixPin_2024-12-09_17-21-59.png" style="zoom:50%;" /> 
 
 |  System requirements  |      Release notes     |     Contribution guidelines   |      Security policy      |      Code of Conduct      |
 |         :---:         |          :---:         |          :---:                |          :---:            |          :---:            |
