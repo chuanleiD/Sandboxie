@@ -32,7 +32,7 @@
 >
 >6. 获取编译后的结果
 >
->   <img src="D:\work_save\typora_picture\upload_ac3afe970e79e8dbe7ffaa8189b214bc.png" alt="PixPin_2024-12-09_17-21-59.png" style="zoom:50%;" /> 
+<img src="https://notes.sjtu.edu.cn/uploads/upload_ac3afe970e79e8dbe7ffaa8189b214bc.png" alt="PixPin_2024-12-09_17-21-59.png" style="zoom:50%;" /> 
 
 |  System requirements  |      Release notes     |     Contribution guidelines   |      Security policy      |      Code of Conduct      |
 |         :---:         |          :---:         |          :---:                |          :---:            |          :---:            |
